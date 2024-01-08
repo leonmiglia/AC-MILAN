@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "MilanTypeRev Regular";
 }
 
 header {
@@ -67,7 +68,6 @@ header {
     text-transform: uppercase;
     list-style: none;
     display: flex;
-    font-family: "MilanTypeRev Regular";
 }
 .menu li {
     padding: 10px 15px;
@@ -83,7 +83,6 @@ header {
     margin-left: 30px;
 }
 .navigation button {
-    font-family: "MilanTypeRev Regular";
     background-color: #C9230E;
     color: #fff;
     border: 2px solid #C9230E;
@@ -117,7 +116,6 @@ header {
     height: 15px;
 }
 .language .country {
-    font-family: "MilanTypeRev Regular";
     font-size: 14px;
     margin-left: 5px;
 }
@@ -135,7 +133,6 @@ header {
     width: 1280px;
     height: 600px;
     color: #fff;
-    font-family: "MilanTypeRev Regular";
     position: relative;
     bottom: 27px;
 }
@@ -164,7 +161,6 @@ header {
     font-size: 16px;
 }
 .carousel .red {
-    font-family: "MilanTypeRev Regular";
     background-color: #C9230E;
     color: #fff;
     border: 2px solid #C9230E;
@@ -181,7 +177,6 @@ header {
     border-color: #C9230E;
 }
 .carousel .transparent {
-    font-family: "MilanTypeRev Regular";
     background-color: rgb(0, 0, 0, 0.2);
     color: #fff;
     border: 2px solid #fff;
@@ -196,4 +191,97 @@ header {
 .carousel .transparent:hover {
     background-color: #fff;
     color: #000;
+}
+
+
+.season {
+    display: flex;
+    justify-content: center;
+    z-index: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+.season h2 {
+    text-transform: uppercase;
+}
+.season .partite {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 100px;
+    border-right: 1px solid rgba(0,0,0, 0.2);
+}
+.season .classifica {
+    background-color: #fff;
+    padding: 20px 60px;
+    text-align: center;
+}
+.partite h2 {
+    margin-bottom: 4px;
+}
+.partite img {
+    width: 60px;
+    height: auto;
+}
+.partite .dettagli {
+    font-size: 12px;
+}
+.dettagli .giornata {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.dettagli p,
+.dettagli span {
+    margin: 0;
+}
+.dettagli div {
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+.match .first-team,
+.match #versus,
+.match .second-team {
+    display: inline-block;
+}
+#versus {
+    position: relative;
+    bottom: 60px;
+    left: 13px;
+    margin: 0 120px;
+    font-size: 24px;
+}
+.match button,
+.match a {
+    display: block;
+}
+.partite button {
+    cursor: pointer;
+    background-color: #D50101;
+    color: #fff;
+    border-radius: 2px;
+    border: 2px solid #D50101;
+    margin: 0 auto;
+    padding: 1px 6px;
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    transition: all 0.3s ease-in;
+}
+.partite button:hover {
+    background-color: transparent;
+    color: #D50101 ;
+    border-color: #D50101;
+}
+.partite a {
+    text-decoration: none;
+}
+.partite .stream {
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #D50101;
+    font-weight: 300;
+    text-decoration: underline;
 }
