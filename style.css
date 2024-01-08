@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 158px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.2);
+}
+
+.logo {
+    height: 132px;
+    position: absolute;
+    top: 68px;
+    left: 280px;
+}
+.logo-background {
+    background-image: url('https://www.acmilan.com/images/logoCircles.png');
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 280px;
+    position: relative;
+    left: 137px;
+    bottom: 120px;
+}   
+
+.top-header {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 240px;
+}
+.top-header ul {
+    list-style: none;
+    display: inline-flex;
+}
+.social {
+    align-items: center;
+    padding-right: 25px;
+}
+.social img {
+    width: 15px;
+}
+.social li {
+    padding: 0 6px;
+    margin: 5px 0;
+}
+.sponsor {
+    padding-left: 25px;
+    border-left: 1px solid rgba(0,0,0, 0.2);
+}
+.sponsor img {
+    width: 80px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 370px;
+}
+.menu {
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    font-family: "MilanTypeRev Regular";
+}
+.menu li {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.menu li:hover {
+    opacity: 1;
+}
+.navigation {
+    display: flex;
+    margin-left: 30px;
+}
+.navigation button {
+    font-family: "MilanTypeRev Regular";
+    background-color: #C9230E;
+    color: #fff;
+    border: 2px solid #C9230E;
+    font-size: 11px;
+    padding: 6px 12px;
+    border-radius: 2px;
+}
+.navigation button:hover {
+    background-color: #fff;
+    color: #C9230E;
+    border-color: #C9230E;
+    cursor: pointer;
+}
+.search-icon {
+    width: 15px;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 10px;
+}
+.search-icon:hover {
+    background-color: #C9230E;
+}
+.language {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.language img {
+    width: 15px;
+    height: 15px;
+}
+.language .country {
+    font-family: "MilanTypeRev Regular";
+    font-size: 14px;
+    margin-left: 5px;
+}
+.language .arrow {
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
