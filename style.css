@@ -286,7 +286,9 @@ header {
     font-weight: 300;
     text-decoration: underline;
 }
-
+.partite .stream:hover {
+    text-decoration: none;
+}
 .classifica table {
     margin-top: 25px;
     margin-bottom: 40px;
@@ -361,6 +363,9 @@ header {
     text-decoration: underline;
     padding-left: 40px;
 }
+.classifica .classifiche-link:hover {
+    text-decoration: none;
+}
 
 
 .news {
@@ -397,6 +402,10 @@ header {
     display: flex;
     align-items: center;
     margin: 0;
+}
+.news .griglia-news a {
+    text-decoration: none;
+    color: #000;
 }
 .news .griglia-news div div {
     background-color: #fff;
