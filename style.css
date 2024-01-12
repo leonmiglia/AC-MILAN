@@ -285,3 +285,78 @@ header {
     font-weight: 300;
     text-decoration: underline;
 }
+
+.classifica table {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.classifica thead tr {
+    margin-bottom: 5px;
+}
+.classifica table th {
+    font-family:  'Raleway', sans-serif;
+    font-size: 14px;
+    width: 67px;
+    font-weight: normal;
+}
+.classifica .empty {
+    width: 0px;
+}
+.classifica thead .league {
+    width: 195px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+.classifica tbody tr {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
+.classifica .no-border {
+    border: none;
+}
+.classifica td {
+    width: 67px;
+    font-family:  'Raleway', sans-serif;
+}
+.classifica .punti {
+    margin-left: 67px;
+    font-weight: bold;
+}
+.classifica .team {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    font-family: "MilanTypeRev Regular";
+}
+.classifica .milan {
+    color: #C9230E;
+    font-weight: bold;
+}
+.classifica table img {
+    width: 25px;
+    padding-right: 15px;
+}
+.classifica h4 {
+    text-transform: uppercase;
+    display: inline
+}
+.classifica tr {
+    display: flex;
+    align-items: center;
+}
+.classifica tbody tr {
+    height: 40px;
+}
+.classifica .position {
+    font-weight: bold;
+    color: #D8BE6D;
+    font-family:  "MilanTypeRev Regular";
+    padding-right: 20px;
+}
+
+.classifica .classifiche-link {
+    font-family: 'Raleway', sans-serif;
+    color: #D50101;
+    font-weight: 300;
+    text-decoration: underline;
+    padding-left: 40px;
+}
