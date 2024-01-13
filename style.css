@@ -437,3 +437,12 @@ header {
     padding-right: 20px;
     left: 25px;
 }
+
+
+.pubblicita {
+    text-align: center;
+    margin-top: 50px;
+}
+.pubblicita  img {
+    max-width: 1140px;
+}
