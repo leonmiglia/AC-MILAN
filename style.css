@@ -762,7 +762,7 @@ header {
 
 
 .club {
-    margin: 50px 15%;
+    margin: 80px 15%;
 }
 .club h1 {
     text-transform: uppercase;
@@ -806,6 +806,46 @@ header {
     transition: all ease-in 0.3s;
 }
 .club button:hover {
+    background-color: transparent;
+    color: #D50101;
+}
+
+
+.academy {
+    margin: 0 15%;
+    background-color: #fff;
+}
+.academy img {
+    width: 100%;
+}
+.academy h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.academy p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+}
+.academy div {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.academy button {
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 8px 80px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #D50101;
+    color: #fff;
+    border: 2px solid #D50101;
+    border-radius: 2px;
+    font-family: "MilanTypeRev Regular";
+    transition: all ease-in 0.3s;
+}
+.academy button:hover {
     background-color: transparent;
     color: #D50101;
 }
