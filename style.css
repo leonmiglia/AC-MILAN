@@ -629,3 +629,45 @@ header {
 .gallery .fourth {
     background-image: url('https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/a51a7223-0e0e-4ef9-abc4-ad0d170c85da/MilanAtalanta-35.jpg?w=1280&auto=format');
 }
+
+
+.shop {
+    margin: 0 15%;
+}
+.shop h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.shop .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shop img {
+    width: 360px;
+}
+.shop .content div div {
+    text-align: center;
+    padding: 20px;
+}
+.shop button {
+    cursor: pointer;
+    padding: 10px 50px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #D50101;
+    color: #fff;
+    border: 2px solid #D50101;
+    border-radius: 2px;
+    font-family: "MilanTypeRev Regular";
+    transition: all ease-in 0.3s;
+}
+.shop button:hover {
+    background-color: transparent;
+    color: #D50101;
+}
+.shop .first,
+.shop .second,
+.shop .third {
+    background-color: #fff;
+}
