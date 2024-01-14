@@ -882,3 +882,77 @@ header {
     max-width: 80px;
     margin-left: 40px;
 }
+
+
+footer {
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+}
+footer figure {
+    text-align: center;
+    margin: 0;
+    height: 0;
+}
+footer .stemma {
+    width: 115px;
+    position: relative;
+    bottom: 90px;
+}
+footer .hastag {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+footer .hastag h1 {
+    text-transform: uppercase;
+    padding: 30px 150px;
+    font-size: 26px;
+}
+footer .social {
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 0;
+}
+footer .social h2{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+footer .social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+footer .social li {
+    padding: 0 15px;
+}
+footer .social img {
+    width: 30px;
+}
+footer .bottom-footer {
+    display: flex;
+    border-top: 0.3px solid rgb(255, 255, 255, 0.2);
+    padding-top: 20px;
+    justify-content: center;
+}
+footer .bottom-footer .links {
+    display: flex;
+}
+footer .copyright {
+    max-width: 500px;
+}
+footer .bottom-footer p {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.83;
+    font-weight: 300;
+}
+footer .bottom-footer ul {
+    text-transform: uppercase;
+}
+footer .bottom-footer li {
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
