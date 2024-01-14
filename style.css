@@ -487,18 +487,14 @@ header {
     text-decoration: none;
     color: #fff;
 }
+
 .media .video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    max-width: 1140px;
-    max-height: 550px;
-    gap: 80px;
-}
-.media .video .fourth,
-.media .video .fifth {
-    position: relative;
-    bottom: 70px;
+    max-width: 1200px;
+    gap: 20px;
+    align-items: stretch;
 }
 .media .video .screen {
     width: 100%;
@@ -507,28 +503,7 @@ header {
     background-color: #2B2B2B;
     padding: 10px;
     margin-top: -70px;
-    height: 30%;
     line-height: 25px;
-}
-.media .video .fourth div,
-.media .video .fifth div {
-    height: 42%;
-}
-.media .video .first div {
-    padding-top: 40px;
-    height: 27%;
-}
-.media .video span {
-    color: #C9230E;
-    font-size: 40px;
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
-.media .video .first span {
-    font-size: 70px;
-    position: relative;
-    bottom: 2px;
-    display: inline-block;
 }
 .media .video .play {
     width: 60px;
@@ -536,12 +511,35 @@ header {
     bottom: 70px;
     left: 5px;
 }
+.media .video h3 {
+    font-size: 16px;
+}
+.media .video span {
+    color: #C9230E;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.media .video .first,
+.media .video .second,
+.media .video .third,
+.media .video .fourth,
+.media .video .fifth {
+    height: 90%;
+}
 .media .video .first {
     grid-area: 1 / 1 / span 2 / span 2;
-    height: 550px;
 }
-.media .video div div h3 {
-    font-size: 16px;
+.media .video .first div {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.media .video .first span {
+    font-size: 70px;
+    position: relative;
+    bottom: 2px;
+    display: inline-block;
 }
 .media .video .first div h3 {
     font-size: 26px;
@@ -558,7 +556,64 @@ header {
 }
 .media .video .fourth {
     grid-area: 2 / 3 / span 1 / span 1;
+    margin-top: -15px;
 }
 .media .video .fifth {
     grid-area: 2 / 4 / span 1 / span 1;
+    margin-top: -15px;
+}
+.media .video .fifth div {
+    padding-bottom: 35px;
+}
+
+.media .fotogallery {
+    margin-top: 50px;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery .first,
+.gallery .second,
+.gallery .third,
+.gallery .fourth {
+    color: #fff;
+    font-size: 12px;
+    height: 270px;
+    width: 265px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.gallery div div {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    text-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+}
+.gallery img {
+    width: 30px;
+    padding: 15px;
+}
+.gallery span {
+    color: #D50101;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.gallery h3 {
+    font-size: 16px;
+}
+.gallery .first {
+    background-image: url('https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/5cc0475c-d0ba-48fa-962c-c6121a7e72c4/JuveMilanFemminile_17.jpg?w=1280&auto=format');
+}
+.gallery .second {
+    background-image: url('https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/1754860c-e77b-4b40-91f9-7d8760c5e128/Gallery-Allenamento-12gen-05.jpg?w=1280&auto=format');
+}
+.gallery .third {
+    background-image: url('https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/787f5a91-2028-4047-88f4-a498c560287e/AllenamentoF-11.jpg?w=1280&auto=format');
+}
+.gallery .fourth {
+    background-image: url('https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/a51a7223-0e0e-4ef9-abc4-ad0d170c85da/MilanAtalanta-35.jpg?w=1280&auto=format');
 }
