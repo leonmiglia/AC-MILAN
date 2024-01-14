@@ -849,3 +849,36 @@ header {
     background-color: transparent;
     color: #D50101;
 }
+
+
+.partner {
+    background-color: #fff;
+    text-align: center;
+    padding: 70px;
+    margin-top: 80px;
+    padding-bottom: 160px;
+}
+.partner a img {
+        font-size: 0;
+        text-decoration: none; /* Rimuove il sottolineato che può essere applicato dal browser */
+}
+.partner h2 {
+    text-transform: uppercase;
+    color: #C9230E;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.partner div {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.partner .third {
+    border: none;
+    padding: 0 100px;
+}
+.partner img {
+    max-width: 80px;
+    margin-left: 40px;
+}
