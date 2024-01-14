@@ -671,3 +671,39 @@ header {
 .shop .third {
     background-color: #fff;
 }
+
+
+.app {
+    text-align: center;
+    margin: 100px 15%;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.app img {
+    width: 100%;
+}
+.app h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.app p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+}
+.app button {
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 100px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #D50101;
+    color: #fff;
+    border: 2px solid #D50101;
+    border-radius: 2px;
+    font-family: "MilanTypeRev Regular";
+    transition: all ease-in 0.3s;
+}
+.app button:hover {
+    background-color: transparent;
+    color: #D50101;
+}
