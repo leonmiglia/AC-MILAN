@@ -759,3 +759,53 @@ header {
     height: 100%;
     position: absolute;
 }
+
+
+.club {
+    margin: 50px 15%;
+}
+.club h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.club img {
+    width: 560px;
+}
+.club .content {
+    display: flex;
+    justify-content: space-between;
+}
+.club .first, 
+.club .second {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.club .content div div {
+    text-align: center;
+}
+.club h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.club p {
+    margin-top: 0;
+    font-size: 11px;
+}
+.club button {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 8px 80px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #D50101;
+    color: #fff;
+    border: 2px solid #D50101;
+    border-radius: 2px;
+    font-family: "MilanTypeRev Regular";
+    transition: all ease-in 0.3s;
+}
+.club button:hover {
+    background-color: transparent;
+    color: #D50101;
+}
