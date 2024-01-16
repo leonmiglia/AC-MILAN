@@ -1164,6 +1164,7 @@ footer .bottom-footer li {
     }
     .news {
         margin: 40px auto;
+        margin-bottom: 10px;
         padding: 0 20px;
     }
     .news .titolo h2 {
@@ -1200,6 +1201,14 @@ footer .bottom-footer li {
         overflow-y: hidden;
     } 
 
+
+    .pubblicita {
+        margin-top: 0;
+        padding: 0 5%;
+    }
+    .pubblicita  img {
+        width: 100%;;
+    }
 
 
 }
