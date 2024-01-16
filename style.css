@@ -226,7 +226,7 @@ header {
 .season {
     display: flex;
     justify-content: center;
-    z-index: 5px;
+    z-index: 5;
     margin: 0 auto;
     position: relative;
     top: -55px;
@@ -1089,6 +1089,65 @@ footer .bottom-footer li {
     }
         
     .season {
-        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+        top: 0px;
     }
-  }
+    .season .partite {
+        background-color: #fff;
+        text-align: center;
+        padding: 20px 5%;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0, 0.2);
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    #versus {
+        margin: 0 8% 0 5%;
+    }
+    .partite button {
+        position: static;
+    }
+    .season .classifica {
+        width: 100%;
+        padding: 30px 5%;
+    }
+    .season .classifica table {
+        margin: 30px auto;
+        width: 100%;
+    }
+    .classifica thead .league {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 50px;
+        
+    }
+    .classifica table th {
+        width: auto;
+    }
+    .classifica td {
+        width: auto;
+    }
+    .classifica .position {
+        padding-right: 0px;
+    }
+    .classifica td .team {
+        width: 100px;
+        position: relative;
+        right: 5%;
+    }
+    .classifica .punti {
+        margin-left: 0px;
+    }
+    .classifica table tr {
+        display: flex;
+        justify-content: space-between;
+    }
+    .classifica .classifiche-link {
+        padding-left: 0;
+    }
+
+}
