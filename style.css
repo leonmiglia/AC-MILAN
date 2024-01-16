@@ -418,6 +418,8 @@ header {
 .news .griglia-news {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .news .griglia-news h3 {
     font-size: 21px;
@@ -434,16 +436,30 @@ header {
 .news .griglia-news a {
     text-decoration: none;
     color: #000;
+} 
+.griglia-news .first,
+.griglia-news .second {
+    margin-bottom: 30px;
+    height: 365px;
+    width: 560px;
+    overflow-y: hidden;
+}
+.griglia-news .third,
+.griglia-news .fourth,
+.griglia-news .fifth {
+    margin-bottom: 30px;
+    height: 265px;
+    width: 365px;
+    overflow-y: hidden;
 }
 .news .griglia-news div div {
     background-color: #fff;
-    max-width: 450px;
+    width: 90%;;
     padding-left: 12px;
-    padding-bottom: 10px;
-    position: relative;
-    bottom: 60px;
-    left: 40px;
+    padding-bottom: 10px;  
     padding-right: 10px;
+    margin: 0 auto;
+    transform: translateY(-50%);
 }
 .news .griglia-news span {
     color: #C9230E;
@@ -452,18 +468,15 @@ header {
     margin-bottom: 5px;
 }
 .news .griglia-news .big img {
-    width: 560px;
+    width: 100%;
 }
 .news .griglia-news .small img {
-    width: 363px;
-}
-.news .griglia-news div {
-    margin-right: 20px;
+    width: 100%;
 }
 .news .griglia-news .small div {
-    max-width: 280px;
+    width: 80%;
     padding-right: 20px;
-    left: 25px;
+    margin: 0 auto;
 }
 
 
@@ -1149,5 +1162,44 @@ footer .bottom-footer li {
     .classifica .classifiche-link {
         padding-left: 0;
     }
+    .news {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    .news .titolo h2 {
+        font-size: 20px;
+        margin-right: 5%;
+    }
+    .news .titolo a {
+        font-size: 15px;
+
+    }
+    .news .titolo {
+        margin-bottom: 30px;
+    }
+    .news .griglia-news {
+       justify-content: center;
+    }
+    .news .griglia-news div div {
+        width: 80%;;
+    }
+    .news .griglia-news h3 {
+        font-size: 18px;
+    }
+    .news .griglia-news p {
+        font-size: 12px;
+    }
+    .griglia-news .first,
+    .griglia-news .second, 
+    .griglia-news .third,
+    .griglia-news .fourth,
+    .griglia-news .fifth {
+        margin-bottom: 40px;
+        height: 255px;
+        width: 354px;
+        overflow-y: hidden;
+    } 
+
+
 
 }
