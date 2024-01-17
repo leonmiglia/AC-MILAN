@@ -1317,4 +1317,26 @@ footer .bottom-footer li {
     .app button {
         margin-top: 10px;
     }
+
+
+    .squadra {
+        margin: 0;
+        background-position: center center;
+        height: 200px;
+    }
+    .squadra h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .squadra p {
+        font-size: 12px;
+    }
+    .squadra button {
+        margin-top: 20px;
+        padding: 8px 70px;
+    }
+    .squadra::before {
+        background-color: rgba(0,0,0, 0.6);
+    }
+    
 }
