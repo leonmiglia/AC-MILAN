@@ -1404,4 +1404,50 @@ footer .bottom-footer li {
         width: 50px;
         margin-left: 0px;
     }
+
+
+    footer {
+        height: auto;
+        width: 100%;
+    }
+    footer .stemma {
+        width: 65px;
+        bottom: 50px;
+    }
+    footer .hastag {
+        margin: 0 5%;
+        justify-content: center;
+    }
+    footer .hastag h1 {
+        padding: 20px 10%;
+        font-size: 16px;
+    }
+    footer .social h2{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    footer .social li {
+        padding: 0 10px;
+    }
+    footer .social img {
+        width: 25px;
+    }
+    footer .bottom-footer {
+        flex-wrap: wrap;
+        padding: 0 5%;
+        padding-top: 10px;
+    }
+    footer .bottom-footer .links {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer .bottom-footer .links ul {
+        padding: 0;
+        margin-right: 20px;
+    }
+    footer .copyright {
+        width: auto;
+        margin-left: 0;
+    }
+
 }
