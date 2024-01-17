@@ -1339,4 +1339,26 @@ footer .bottom-footer li {
         background-color: rgba(0,0,0, 0.6);
     }
     
+
+    .club {
+        margin: 60px 5%;
+    }
+    .club h1 {
+        font-size: 25px;
+    }
+    .club .content {
+        flex-wrap: wrap;
+    }
+    .club .content .first {
+        margin-bottom: 20px;
+    }
+    .club .content img {
+        width: 100%;
+    }
+    .club button {
+        margin-top: 10px;
+        padding: 8px 60px;
+    }
+
+
 }
