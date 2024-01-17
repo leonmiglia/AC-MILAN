@@ -606,7 +606,7 @@ header {
 .media .video .fifth div {
     padding-bottom: 35px;
 }
-
+*/
 .media .fotogallery {
     margin-top: 50px;
 }
@@ -1209,6 +1209,82 @@ footer .bottom-footer li {
     .pubblicita  img {
         width: 100%;;
     }
+
+
+    .media {
+        margin: 50px 0;
+        background-color: #141414;
+        padding: 40px 5%;
+    }
+    .media .titolo h2 {
+        font-size: 20px;
+    }
+    .media .titolo a {
+        font-size: 16px;
+    }
+    
+    .media .video {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        overflow-x: scroll;
+        margin-top: -10px;
+    }
+    .media .video div {
+        flex-shrink: 0;
+    }
+    .media .video .screen {
+        width: 100%;
+    }
+    .media .video .first div,
+    .media .video .second div,
+    .media .video .third div,
+    .media .video .fourth div,
+    .media .video .fifth div {
+        padding: 10px;
+    }
+    .media .video .first div p,
+    .media .video .second div p,
+    .media .video .third div p,
+    .media .video .fourth div p,
+    .media .video .fifth div p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .media .video .first div span,
+    .media .video .second div span,
+    .media .video .third div span,
+    .media .video .fourth div span,
+    .media .video .fifth div span {
+        font-size: 40px;
+    }
+    .media .video .first div h3,
+    .media .video .second div h3,
+    .media .video .third div h3,
+    .media .video .fourth div h3,
+    .media .video .fifth div h3 {
+        font-size: 18px;
+    }
+    .media .video .first,
+    .media .video .second,
+    .media .video .third,
+    .media .video .fourth,
+    .media .video .fifth {
+        width: 280px;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .media .fotogallery {
+        margin-top: 30px;
+    }
+    .media .fotogallery .gallery {
+        flex-wrap: nowrap;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+
 
 
 }
