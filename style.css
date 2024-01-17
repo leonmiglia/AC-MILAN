@@ -1302,4 +1302,19 @@ footer .bottom-footer li {
     .shop img {
         width: 100%;
     }
+
+
+    .app {
+        margin: 80px 5%;
+    }
+    .app h2 {
+        font-size: 20px;
+    }
+    .app p {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    .app button {
+        margin-top: 10px;
+    }
 }
