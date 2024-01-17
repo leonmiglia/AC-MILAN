@@ -1285,6 +1285,21 @@ footer .bottom-footer li {
         overflow-x: scroll;
     }
 
-
-
+    
+    .shop {
+        margin: 0 5%;
+    }
+    .shop h1 {
+        font-size: 25px;
+    }
+    .shop .content {
+        justify-content: center;
+    }
+    .shop .content .first,
+    .shop .content .second {
+        margin-bottom: 20px;
+    }
+    .shop img {
+        width: 100%;
+    }
 }
