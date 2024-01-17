@@ -1361,4 +1361,19 @@ footer .bottom-footer li {
     }
 
 
+    .academy {
+        margin: 0 5%;
+    }
+    .academy h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .academy p {
+        font-size: 11px;
+        padding: 0 20px;
+    }
+    .academy button {
+        margin-top: 10px;
+        padding: 8px 60px;
+    }
 }
