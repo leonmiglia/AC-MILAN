@@ -1376,4 +1376,32 @@ footer .bottom-footer li {
         margin-top: 10px;
         padding: 8px 60px;
     }
+
+
+    .partner {
+        padding: 20px;
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+    .partner h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .partner div {
+        border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .partner .third {
+        padding: 0;
+    }
+    .partner .third img {
+        margin-bottom: 20px;
+    }
+    .partner img {
+        width: 50px;
+        margin-left: 0px;
+    }
 }
