@@ -1100,7 +1100,27 @@ footer .bottom-footer li {
         margin-top: 0;
         font-size: 12px;
     }
-        
+    .buttons {
+        top: 180px;
+        left: 5%;
+    }
+    .buttons button{
+        font-size: 14px;
+    }
+    .carousel .red {
+        padding: 5px 12px;
+        width: auto;
+        height: auto;
+    }
+    .carousel .transparent {
+        padding: 5px 12px;
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    
+      
+    
     .season {
         display: flex;
         flex-wrap: wrap;
@@ -1415,8 +1435,8 @@ footer .bottom-footer li {
         bottom: 50px;
     }
     footer .hastag {
+        width: auto;
         margin: 0 5%;
-        justify-content: center;
     }
     footer .hastag h1 {
         padding: 20px 10%;
