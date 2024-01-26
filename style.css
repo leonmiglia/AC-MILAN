@@ -177,7 +177,6 @@ header {
 }
 #dropdownMenu ul .titolo {
     border: none;
-    cursor: auto;
 }
 #dropdownMenu ul li:hover {
     border-bottom: 1px solid #fff;
@@ -1044,6 +1043,7 @@ footer .bottom-footer li {
         position: relative;
         top: 70px;
         left: 20px;
+        cursor: pointer;
     }
     .hamburger img {
         width: 30px;
@@ -1074,12 +1074,12 @@ footer .bottom-footer li {
         padding-left: 0;
     }
     .nav-header {
-        left: 0;
-        right: 5%;
-        top: 70px;
+        width: fit-content;
         display: flex;
         justify-content: flex-end;
-        position: absolute;
+        position: static;
+        margin-left: auto;
+        margin-top: 30px;
     }
     .menu {
         display: none;
